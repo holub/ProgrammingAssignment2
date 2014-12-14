@@ -1,0 +1,5 @@
+source("cachematrix.R")
+mat8 <- matrix(1:6, 2)
+m <- makeCacheMatrix(mat8[, 2:3])
+cacheSolve(m)
+cacheSolve(m)
